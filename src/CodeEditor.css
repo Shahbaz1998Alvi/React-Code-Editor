@@ -1,0 +1,47 @@
+/* Styling for the main CodeEditor component */
+
+.code-editor {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Styling for the textarea where code input is entered */
+
+.fira-code-uniquifier {
+  font-family: "Fira Code", monospace;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.editor {
+  font-family: 'Fira Code', monospace;
+}
+
+.code-editor-textarea {
+  flex: 1;
+  height: 400px;
+  width: 1000px;
+  font-family: monospace;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+/* Styling for the preview area where syntax-highlighted code is displayed */
+.code-editor-preview {
+  flex: 1;
+  padding: 10px;
+  overflow: auto;
+}
+
+/* Styling for Prism.js theme */
+pre {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.4;
+  white-space: pre-wrap;
+}
+
+.token {
+}
